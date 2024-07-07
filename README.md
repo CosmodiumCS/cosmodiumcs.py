@@ -2,7 +2,7 @@
 
 ## Install
 NOTE: not yet integrated
-```python
+```bash
 pip install cosmodiumcs
 ```
 
@@ -11,7 +11,7 @@ pip install cosmodiumcs
 from cosmodiumcs import *
 ```
 
-## Debugging & Logging
+## Debugging Style Guide
 Input:
 ```python
 ccs_confirm("Access granted")
