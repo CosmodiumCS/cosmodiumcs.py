@@ -1,3 +1,39 @@
+# cosmodiumcs.py
+
+## Install
+NOTE: not yet integrated
+```python
+pip install cosmodiumcs
+```
+
+## Usecase
+```python
+from cosmodiumcs import *
+```
+
+## Debugging & Logging
+Input:
+```python
+ccs_confirm("Access granted")
+ccs_deny("Permission denied")
+ccs_error("Wrong password, try again")
+ccs_info("Created by : bluecosmo")
+ccs_input("Enter your name")
+ccs_pending("Connecting")
+ccs_warning("User activity is being logged")
+```
+Output:
+```
+[+] Access granted
+[-] Permission denied
+[!] ERROR : Wrong password, try again
+[$] Created by : bluecosmo
+[~] Enter your name :
+[*] Connecting...
+[!] User activity is being logged
+```
+
+---
 hey @everyone , its been a sec since we last touched base on this side of ccs haha! i'd really like to kick things off with a new project!
 
 i'd like to make `cosmodiumcs` python library, and our tools will now be integrated into it. so people can do things like
